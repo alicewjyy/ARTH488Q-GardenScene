@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
 
     private Rigidbody2D rb;
     private float input;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -30,6 +31,17 @@ public class PlayerMovement : MonoBehaviour
         }
 
         rb.linearVelocity = new Vector2(moveInput * movespeed, rb.linearVelocity.y);
+        
+    }
+
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        Debug.Log("Player entered " + col.name);
+    }
+
+    void OnTriggerExit2D(Collider2D col)
+    {
+        Debug.Log("Player exited " + col.name);
     }
 
 
