@@ -3,13 +3,12 @@ using UnityEngine;
 public class ShowTextOnTrigger : MonoBehaviour
 {
     public GameObject NewMission; 
+    public GameObject NPC;
 
     void Start()
-    {
-        if (NewMission != null)
-        {
+    {   
             NewMission.SetActive(false); 
-        }
+            NPC.SetActive(false);
     }
 
     void OnTriggerEnter2D(Collider2D other)  
@@ -26,5 +25,11 @@ public class ShowTextOnTrigger : MonoBehaviour
         {
             NewMission.SetActive(false);
         }
+    }
+
+    public void OnYesClicked()
+    {
+        NewMission.SetActive(false);
+        NPC.SetActive(true);
     }
 }
