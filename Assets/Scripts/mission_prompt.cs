@@ -44,6 +44,7 @@ public class mission_prompt : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             playerInRange = false;
+            missionPanel.SetActive(false);
         }
     }
 }
