@@ -14,7 +14,7 @@ public class PageFlipController : MonoBehaviour
         if (isFlipping) return;
 
         // Flip forward
-        if (Input.GetKeyDown(KeyCode.RightArrow))
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
             if (currentPage < pages.Length)
             {
@@ -24,7 +24,7 @@ public class PageFlipController : MonoBehaviour
         }
 
         // Flip backward
-        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        if (Input.GetKeyDown(KeyCode.RightArrow))
         {
             if (currentPage > 0)
             {
