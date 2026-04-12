@@ -26,7 +26,13 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         horizontalInput = Input.GetAxis("Horizontal"); //A, D, and Left and Right Arrow keys
+
+        if (!PauseController.IsGamePaused)
+        {
+            FlipSprite();
+        }
 
         //Old Movement code
         /*float moveInput = 0f;
@@ -41,15 +47,21 @@ public class PlayerMovement : MonoBehaviour
         }
 
         rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y); */
-
-        FlipSprite();
     }
 
     void FixedUpdate()
     {
-        rb.linearVelocity = new Vector2(horizontalInput * moveSpeed, rb.linearVelocity.y);
-
-        animator.SetFloat("xVelocity", Mathf.Abs(rb.linearVelocity.x));
+        if (PauseController.IsGamePaused)
+        {
+            rb.linearVelocity = Vector2.zero; //Stop movement
+            animator.SetFloat("xVelocity", 0f);
+            return;
+        }
+        else
+        {
+            rb.linearVelocity = new Vector2(horizontalInput * moveSpeed, rb.linearVelocity.y);
+            animator.SetFloat("xVelocity", Mathf.Abs(rb.linearVelocity.x));
+        }
     }
 
     void FlipSprite()
@@ -62,7 +74,7 @@ public class PlayerMovement : MonoBehaviour
             transform.localScale = ls;
         }
     }
-
+    /*
     void OnTriggerEnter2D(Collider2D col)
     {
         Debug.Log("Player entered " + col.name);
@@ -72,6 +84,5 @@ public class PlayerMovement : MonoBehaviour
     {
         Debug.Log("Player exited " + col.name);
     }
-
-
+    */
 }
