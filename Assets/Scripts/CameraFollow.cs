@@ -13,6 +13,8 @@ public class CameraFollow : MonoBehaviour
     private float camOrthsize;
     private float cameraRatio;
     private Camera mainCam;
+
+    private float heightOffset = 0.7f;
     
     private Vector3 smoothPos;
     public float smoothSpeed = 0.5f;
@@ -34,7 +36,7 @@ public class CameraFollow : MonoBehaviour
     {
         camY = Mathf.Clamp(followTransform.position.y, yMin + camOrthsize, yMax - camOrthsize);
         camX = Mathf.Clamp(followTransform.position.x, xMin + cameraRatio, xMax - cameraRatio);
-        smoothPos = Vector3.Lerp(this.transform.position, new Vector3(camX, camY, this.transform.position.z), smoothSpeed);
+        smoothPos = Vector3.Lerp(this.transform.position, new Vector3(camX, camY + heightOffset, this.transform.position.z), smoothSpeed);
 
         this.transform.position = smoothPos;
     }
