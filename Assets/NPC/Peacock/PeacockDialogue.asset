@@ -16,9 +16,18 @@ MonoBehaviour:
   npcPortrait: {fileID: -9178916439338732956, guid: 9ec5b92b9137d00449c293ab58b68f5c, type: 3}
   dialogueLines:
   - Hello there!
-  - You have spoken to me.
+  - Do you want to keep talking to me?
+  - Of course you do!
+  - How rude!
   autoProgressLines: 0000
+  endDialogueLines: 00000101
   autoProgressDelay: 1.5
   typingSpeed: 0.05
   voiceSound: {fileID: 0}
   voicePitch: 1
+  choices:
+  - dialogueIndex: 1
+    choices:
+    - Yes
+    - No
+    nextDialogueIndexes: 0200000003000000
