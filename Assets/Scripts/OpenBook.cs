@@ -3,29 +3,23 @@ using UnityEngine.SceneManagement;
 
 public class ToggleBookScene : MonoBehaviour
 {
-    private string Book = "Book";  
-    private string Game = "Game";   
-
-    void Start()
-    {
-        Game = SceneManager.GetActiveScene().name;
-    }
+    private string Book = "Book";
 
     void Update()
     {
-         if (Input.GetKeyDown(KeyCode.O))
+        if (Input.GetKeyDown(KeyCode.O))
         {
-            string currentScene = SceneManager.GetActiveScene().name;
+            Scene bookScene = SceneManager.GetSceneByName(Book);
 
-            if (currentScene == Book)
+            if (bookScene.isLoaded)
             {
-                // If currently in Book → go back
-                SceneManager.LoadScene(Game);
+                // Close overlay
+                SceneManager.UnloadSceneAsync(Book);
             }
             else
             {
-                // If in Main → open Book
-                SceneManager.LoadScene(Book);
+                // Open overlay
+                SceneManager.LoadScene(Book, LoadSceneMode.Additive);
             }
         }
     }

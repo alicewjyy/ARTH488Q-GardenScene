@@ -1,20 +1,31 @@
-using System.Threading.Tasks;
 using UnityEngine;
+using System.Collections;
 
-public class LevelStartFade : MonoBehaviour
+public class GroupFadeIn : MonoBehaviour
 {
-    private async void Start()
+    public CanvasGroup canvasGroup;
+    public float duration = 1f;
+
+    void Start()
     {
-        Debug.Log("Back Invisible");
+        if (canvasGroup == null)
+            canvasGroup = GetComponent<CanvasGroup>();
 
-        await ScreenFade.Instance.FadeIn();
-        Debug.Log("Back visible");
-
+        canvasGroup.alpha = 0f;
+        StartCoroutine(FadeIn());
     }
 
-    // Update is called once per frame
-    void Update()
+    IEnumerator FadeIn()
     {
-        
+        float t = 0f;
+
+        while (t < duration)
+        {
+            t += Time.deltaTime;
+            canvasGroup.alpha = Mathf.Lerp(0f, 1f, t / duration);
+            yield return null;
+        }
+
+        canvasGroup.alpha = 1f;
     }
 }
