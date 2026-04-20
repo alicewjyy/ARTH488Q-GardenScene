@@ -21,8 +21,11 @@ MonoBehaviour:
   - {fileID: -9203963056601620801, guid: 6b92b719c99c756438a18c48d8372ecf, type: 3}
   npcPortrait2:
   - {fileID: 1832643159004360861, guid: ad9c56e4193d07c4b8774160ae26e3cd, type: 3}
+  - {fileID: -6329472127217758939, guid: 218e5b41c6878664dafb5b0ab593cdc4, type: 3}
+  - {fileID: -2297315480108249004, guid: 7cba3ae9395118f488d26eb36e7ee9b2, type: 3}
+  - {fileID: -1994471573321656780, guid: ccde52e8bd5eabd468f948a06c561eb9, type: 3}
   spriteExpOrder1: 00000000010000000200000002000000
-  spriteExpOrder2: 
+  spriteExpOrder2: 01000000010000000000000002000000
   dialogueLines:
   - What splendor in your stride! Yet it seems a shield against unseen wounds. Peacock,
     why such fierce display in this lonely corner of the garden?

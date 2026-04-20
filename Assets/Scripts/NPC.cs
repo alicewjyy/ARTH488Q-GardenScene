@@ -12,6 +12,8 @@ public class NPC : MonoBehaviour, IInteractable
     public TMP_Text dialogueText, nameText;
     public Image portraitImage;
 
+    public Collider2D dialogueBarrier;
+
 
     private int[] peacock_exp_1 = {0,1,2,2};
     private int[] peacock_exp_2 = {0,0,0,2,2,0};
@@ -19,7 +21,7 @@ public class NPC : MonoBehaviour, IInteractable
 
     private bool isProcessing = false;
 
-
+    private bool hasTalked = false;
     private int image_index = 0;
     private int exp_index = 0;
 
@@ -28,9 +30,10 @@ public class NPC : MonoBehaviour, IInteractable
     private int dialogueIndex;
     private bool isTyping, isDialogueActive;
 
+
     public bool CanInteract()
     {
-        return !isDialogueActive;
+        return !isDialogueActive && !hasTalked;
     }
 
     public void Interact()
@@ -64,6 +67,11 @@ public class NPC : MonoBehaviour, IInteractable
         interactionIcon.SetActive(false);
 
         StartCoroutine(TypeLine());
+    }
+
+    public bool IsDialogueActive()
+    {
+        return isDialogueActive;
     }
 
 
@@ -123,10 +131,18 @@ public class NPC : MonoBehaviour, IInteractable
             else
             {
 
-                portraitImage.sprite = dialogueData.npcPortrait2[0];
+                if (dialogueData.spriteExpOrder2.Length > 0)
+                {
+                    int spriteIndex = dialogueData.spriteExpOrder2[exp_index];
 
+                    if (spriteIndex >= 0 &&
+                        spriteIndex < dialogueData.npcPortrait2.Length)
+                    {
+                        portraitImage.sprite = dialogueData.npcPortrait2[spriteIndex];
+                    }
+                }
 
-                nameText.SetText(dialogueData.npcName[0]);
+            nameText.SetText(dialogueData.npcName[0]);
             }
 
             StartCoroutine(TypeLine());
@@ -164,5 +180,13 @@ public class NPC : MonoBehaviour, IInteractable
         dialogueText.SetText("");
         dialoguePanel.SetActive(false);
         PauseController.SetPause(false);
+
+        if (dialogueBarrier != null)
+        {
+            dialogueBarrier.enabled = false;
+        }
+
+        hasTalked = true;
+        interactionIcon.SetActive(false);
     }
 }

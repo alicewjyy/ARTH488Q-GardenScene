@@ -4742,7 +4742,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1691634239}
   m_Enabled: 1
-  m_Alpha: 1
+  m_Alpha: 0
   m_Interactable: 0
   m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
@@ -6157,6 +6157,7 @@ MonoBehaviour:
   dialogueText: {fileID: 1889077384}
   nameText: {fileID: 905962171}
   portraitImage: {fileID: 1577690249}
+  dialogueBarrier: {fileID: 0}
   interactionIcon: {fileID: 1996175785}
 --- !u!1 &2079287452
 GameObject:
