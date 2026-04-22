@@ -2,7 +2,6 @@ using TMPro;
 using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
-using UnityEngine.Rendering;
 
 //Code taken from https://youtu.be/eSH9mzcMRqw?si=2HETwK3n_VBdYruZ
 public class NPC : MonoBehaviour, IInteractable
@@ -12,28 +11,14 @@ public class NPC : MonoBehaviour, IInteractable
     public TMP_Text dialogueText, nameText;
     public Image portraitImage;
 
-    public Collider2D dialogueBarrier;
-
-
-    private int[] peacock_exp_1 = {0,1,2,2};
-    private int[] peacock_exp_2 = {0,0,0,2,2,0};
-    private int route = 1;
-
-    private bool isProcessing = false;
-
-    private bool hasTalked = false;
-    private int image_index = 0;
-    private int exp_index = 0;
-
     public GameObject interactionIcon;
 
     private int dialogueIndex;
     private bool isTyping, isDialogueActive;
 
-
     public bool CanInteract()
     {
-        return !isDialogueActive && !hasTalked;
+        return !isDialogueActive;
     }
 
     public void Interact()
@@ -59,8 +44,8 @@ public class NPC : MonoBehaviour, IInteractable
         isDialogueActive = true;
         dialogueIndex = 0;
 
-        nameText.SetText(dialogueData.npcName[0]);
-        portraitImage.sprite = dialogueData.npcPortrait2[0];
+        nameText.SetText(dialogueData.npcName);
+        portraitImage.sprite = dialogueData.npcPortrait;
 
         dialoguePanel.SetActive(true);
         PauseController.SetPause(true);
@@ -69,90 +54,26 @@ public class NPC : MonoBehaviour, IInteractable
         StartCoroutine(TypeLine());
     }
 
-    public bool IsDialogueActive()
-    {
-        return isDialogueActive;
-    }
-
-
-
     void NextLine()
     {
-        if (isProcessing) return;
-        isProcessing = true;
-
-        try
+        if (isTyping)
         {
-            if (isTyping)
-            {
-                StopAllCoroutines();
-
-                if (dialogueIndex >= 0 &&
-                    dialogueIndex < dialogueData.dialogueLines.Length)
-                {
-                    dialogueText.SetText(dialogueData.dialogueLines[dialogueIndex]);
-                }
-
-                isTyping = false;
-                isProcessing = false;
-                return;
-            }
-
-            dialogueIndex++;
-
-            if (dialogueIndex < 0 ||
-                dialogueIndex >= dialogueData.dialogueLines.Length ||
-                dialogueIndex >= dialogueData.order1.Length)
-            {
-                EndDialogue();
-                isProcessing = false;
-                return;
-            }
-
-            Debug.Log($"Dialogue Index: {dialogueIndex}");
-
-            if (dialogueData.order1[dialogueIndex] == 1)
-            {
-                if (dialogueData.spriteExpOrder1.Length > 0)
-                {
-                    int spriteIndex = dialogueData.spriteExpOrder1[exp_index];
-
-                    if (spriteIndex >= 0 &&
-                        spriteIndex < dialogueData.npcPortrait1.Length)
-                    {
-                        portraitImage.sprite = dialogueData.npcPortrait1[spriteIndex];
-                    }
-
-                    exp_index++;
-                }
-
-                nameText.SetText(dialogueData.npcName[1]);
-            }
-            else
-            {
-
-                if (dialogueData.spriteExpOrder2.Length > 0)
-                {
-                    int spriteIndex = dialogueData.spriteExpOrder2[exp_index];
-
-                    if (spriteIndex >= 0 &&
-                        spriteIndex < dialogueData.npcPortrait2.Length)
-                    {
-                        portraitImage.sprite = dialogueData.npcPortrait2[spriteIndex];
-                    }
-                }
-
-            nameText.SetText(dialogueData.npcName[0]);
-            }
-
-            StartCoroutine(TypeLine());
+            // Skip typing animation and show the full line
+            StopAllCoroutines();
+            dialogueText.SetText(dialogueData.dialogueLines[dialogueIndex]);
+            isTyping = false;
         }
-        finally
+        else if (++dialogueIndex < dialogueData.dialogueLines.Length)
         {
-            isProcessing = false;
+           // If another line, type next line
+           StartCoroutine(TypeLine()); 
+        }
+        else
+        {
+            EndDialogue();
         }
     }
-
+    
     IEnumerator TypeLine()
     {
         isTyping = true;
@@ -180,13 +101,5 @@ public class NPC : MonoBehaviour, IInteractable
         dialogueText.SetText("");
         dialoguePanel.SetActive(false);
         PauseController.SetPause(false);
-
-        if (dialogueBarrier != null)
-        {
-            dialogueBarrier.enabled = false;
-        }
-
-        hasTalked = true;
-        interactionIcon.SetActive(false);
     }
 }
