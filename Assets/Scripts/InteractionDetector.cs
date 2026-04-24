@@ -17,9 +17,12 @@ public class InteractionDetector : MonoBehaviour
 
     public void OnInteract(InputAction.CallbackContext context)
     {
-        if (context.performed)
-        {
-            interactableInRange?.Interact();
+        if (context.performed && interactableInRange != null){
+            if (interactableInRange.CanInteract() || IsDialogueActive(interactableInRange))
+            {
+                interactableInRange?.Interact();
+            }
+
         }
     }
 
@@ -39,5 +42,25 @@ public class InteractionDetector : MonoBehaviour
             interactableInRange = null;
             interactionIcon.SetActive(false);
         }
+    }
+
+    bool IsDialogueActive(IInteractable interactable)
+    {
+        if (interactable is NPC npc)
+        {
+            return npc.IsDialogueActive();
+        }
+        return false;
+    }
+
+    void Update()
+    {
+        if (interactableInRange != null &&
+            !interactableInRange.CanInteract() &&
+            !IsDialogueActive(interactableInRange))
+        {
+            interactableInRange = null;
+            interactionIcon.SetActive(false);
+        }      
     }
 }
