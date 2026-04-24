@@ -1,26 +1,39 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-public class ToggleBookScene : MonoBehaviour
+public class OpenBook : MonoBehaviour
 {
-    private string Book = "Book";
+    public CanvasGroup canvasGroup;
+    public float fadeSpeed = 5f;
+
+    private bool isVisible = false; 
+    private bool isFading = false;
+    private float targetAlpha;
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.O))
+        if (isFading)
         {
-            Scene bookScene = SceneManager.GetSceneByName(Book);
+            canvasGroup.alpha = Mathf.MoveTowards(
+                canvasGroup.alpha,
+                targetAlpha,
+                Time.deltaTime * fadeSpeed
+            );
 
-            if (bookScene.isLoaded)
+            if (canvasGroup.alpha == targetAlpha)
             {
-                // Close overlay
-                SceneManager.UnloadSceneAsync(Book);
-            }
-            else
-            {
-                // Open overlay
-                SceneManager.LoadScene(Book, LoadSceneMode.Additive);
+                isFading = false;
+
+                canvasGroup.interactable = isVisible;
+                canvasGroup.blocksRaycasts = isVisible;
             }
         }
+    }
+
+    public void ToggleUI()
+    {
+        isVisible = !isVisible;
+
+        targetAlpha = isVisible ? 1f : 0f;
+        isFading = true;
     }
 }
