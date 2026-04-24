@@ -13,10 +13,6 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
     private float input;
     bool isFacingRight = false;
-    float jumpPower = 5f;
-    bool isJumping = false;
-
-
 
     Animator animator;
 
@@ -36,11 +32,6 @@ public class PlayerMovement : MonoBehaviour
         if (!PauseController.IsGamePaused)
         {
             FlipSprite();
-        }
-        if (Input.GetButtonDown("Jump") && !isJumping)
-        {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpPower);
-            isJumping = true;
         }
 
         //Old Movement code
@@ -82,10 +73,6 @@ public class PlayerMovement : MonoBehaviour
             ls.x *= -1f;
             transform.localScale = ls;
         }
-    }
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        isJumping = false;
     }
     /*
     void OnTriggerEnter2D(Collider2D col)
