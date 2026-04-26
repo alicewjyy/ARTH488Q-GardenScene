@@ -12,23 +12,184 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee3764bdf07909042825ed7fafdf708a, type: 3}
   m_Name: PeacockDialogue
   m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
-  npcName: Peacock
-  npcPortrait: {fileID: -9178916439338732956, guid: 9ec5b92b9137d00449c293ab58b68f5c, type: 3}
   dialogueLines:
-  - Hello there!
-  - This is test dialogue to see if the choices work.
-  - What will you choose?
-  - How rude!
-  - How nice!
+  - (A beautiful peacock stands before me. I would like to ask him more about this
+    strange  garden I have found myself in, but...)
+  - (...Something seems to be troubling him. Perhaps I could help?)
+  - What splendor in your stride! Yet it seems a shield against unseen wounds.
+  - Peacock, why such fierce display in this lonely corner of the garden?
+  - "Your intrusion is unwanted. My plumage is unmatched, yet they cast me out for
+    Snake\u2019s lies."
+  - I am in no mood for your platitudes. Pester someone else!
+  - (Peacock seems very sensitive right now. How should I approach this...?)
+  - 'You boast unmatched beauty, yet banishment festers. '
+  - Does this flamboyance truly heal the wound, or merely mask it? Isolation only
+    deepens the shadow.
+  - What could a mere wanderer like you know of such matters? You are only a child
+    in these affairs.
+  - " If you live to grow old, may fate rip your life\u2019s purpose away as it has
+    mine\u2014then you might begin to understand."
+  - Until then, learn to keep your nose out of the business of your elders!
+  - "This \u201Ccelestial wealth\u201D you claim\u2014does it not echo the Painter\u2019s
+    gift, yet hide a deeper truth? I have wandered deserts cast out as \u201Cmad,\u201D
+    yet love revealed worth beyond appearances."
+  - Show me your true feathers; deception only betrays the soul.
+  - "You dare expose what I conceal? This\u2026 this lie was my armor!"
+  - Your new purpose lies not in borrowed glory, but confronting the deception and
+    growing at your own pace.
+  - "The snake\u2019s lies thrive in hiding; truth unfolds in time."
+  - "Insufferable\u2026"
+  - (That did not seem to go over well... Maybe I should try again.)
+  - "I see the pain beneath the display. I too have known separation from my Layla\u2014cast
+    out, called mad, learning to trust my own pace amid the world\u2019s scorn."
+  - Shame need not chain you; true feathers emerge not by force, but by walking the
+    path unafraid.
+  - "You\u2026 speak as one who has tasted exile. But my paradise of perfection is
+    lost forever to the snake. What use is your pity?"
+  - "Then let us pursue the truth together. I carry this falsehood as reminder\u2014its
+    shine deceives, but your natural light awaits."
+  - "You followed\u2026 even with that cursed thing. Why?"
+  - "\u201CLife unfolds not in hasty display or borrowed shine,\r\nBut in the quiet
+    pace where the soul aligns."
+  - "\"Like Majnun\u2019s love that bloomed through desert trial,\r\nOr the seeker
+    who rejects the drop for the eternal sea\u2014"
+  - "\"Trust the feathers nature grants in its own time;\r\nThe snake\u2019s lies
+    fade when the heart walks free."
+  - "\"Body or soul\u2014which claims the truer throne?\r\nBe whole: renounce the
+    seem, and claim your own.\u201D"
+  - Your words pierce deeper than any thorn. Isolation has only worsened this self-hatred.
+  - "Leaning on another\u2026 it is not weakness?"
+  - "Never. I learned in exile that true strength is compassion\u2014for others and
+    the self I once despised. The hoopoe taught the birds: paradise is but a mote
+    in the sun\u2019s true beam."
+  - ' Your plumage was never the measure; the journey reveals the Whole.'
+  - "Then I will return with you. This feather proves the snake\u2019s deception\u2014his
+    lies that turned my pride to poison."
+  - I lashed out because I feared my own incompleteness. No more hiding.
+  - "You have shown me what the manuscripts whisper: outer splendor is illusion.
+    The soul\u2019s pace is its own paradise."
+  - Thank you, wanderer. I am no longer banished from myself.
+  - '(And so another learns: life is your own, and you move at a pace. Trust yourself.)'
+  - '* Poem added to Book'
   autoProgressLines: 
-  endDialogueLines: 0000000101
+  endDialogueLines: 0000000000000000000000000000000000000100000000000000000000000000000000000001
   autoProgressDelay: 1.5
   typingSpeed: 0.05
-  voiceSound: {fileID: 0}
-  voicePitch: 1
-  choices:
+  displayInfos:
+  - dialogueIndex: 0
+    displayName: Majnun
+    displayPortrait: {fileID: -8962151927268179738, guid: a2fa307b7b964244284460c7a0958599, type: 3}
+  - dialogueIndex: 1
+    displayName: Majnun
+    displayPortrait: {fileID: -6329472127217758939, guid: 218e5b41c6878664dafb5b0ab593cdc4, type: 3}
   - dialogueIndex: 2
+    displayName: Majnun
+    displayPortrait: {fileID: -8962151927268179738, guid: a2fa307b7b964244284460c7a0958599, type: 3}
+  - dialogueIndex: 3
+    displayName: Majnun
+    displayPortrait: {fileID: -6329472127217758939, guid: 218e5b41c6878664dafb5b0ab593cdc4, type: 3}
+  - dialogueIndex: 4
+    displayName: Peacock
+    displayPortrait: {fileID: 3442381422319381270, guid: 9cfdbaced9165904d82f793bbc8391a5, type: 3}
+  - dialogueIndex: 5
+    displayName: Peacock
+    displayPortrait: {fileID: 3442381422319381270, guid: 9cfdbaced9165904d82f793bbc8391a5, type: 3}
+  - dialogueIndex: 6
+    displayName: Majnun
+    displayPortrait: {fileID: -6329472127217758939, guid: 218e5b41c6878664dafb5b0ab593cdc4, type: 3}
+  - dialogueIndex: 7
+    displayName: Majnun
+    displayPortrait: {fileID: 1832643159004360861, guid: ad9c56e4193d07c4b8774160ae26e3cd, type: 3}
+  - dialogueIndex: 8
+    displayName: Majnun
+    displayPortrait: {fileID: -6329472127217758939, guid: 218e5b41c6878664dafb5b0ab593cdc4, type: 3}
+  - dialogueIndex: 9
+    displayName: Peacock
+    displayPortrait: {fileID: 3442381422319381270, guid: 9cfdbaced9165904d82f793bbc8391a5, type: 3}
+  - dialogueIndex: 10
+    displayName: Peacock
+    displayPortrait: {fileID: 3442381422319381270, guid: 9cfdbaced9165904d82f793bbc8391a5, type: 3}
+  - dialogueIndex: 11
+    displayName: Peacock
+    displayPortrait: {fileID: 3442381422319381270, guid: 9cfdbaced9165904d82f793bbc8391a5, type: 3}
+  - dialogueIndex: 12
+    displayName: Majnun
+    displayPortrait: {fileID: 1832643159004360861, guid: ad9c56e4193d07c4b8774160ae26e3cd, type: 3}
+  - dialogueIndex: 13
+    displayName: Majnun
+    displayPortrait: {fileID: 1832643159004360861, guid: ad9c56e4193d07c4b8774160ae26e3cd, type: 3}
+  - dialogueIndex: 14
+    displayName: Peacock
+    displayPortrait: {fileID: 3442381422319381270, guid: 9cfdbaced9165904d82f793bbc8391a5, type: 3}
+  - dialogueIndex: 15
+    displayName: Majnun
+    displayPortrait: {fileID: 1832643159004360861, guid: ad9c56e4193d07c4b8774160ae26e3cd, type: 3}
+  - dialogueIndex: 16
+    displayName: Majnun
+    displayPortrait: {fileID: 1832643159004360861, guid: ad9c56e4193d07c4b8774160ae26e3cd, type: 3}
+  - dialogueIndex: 17
+    displayName: Peacock
+    displayPortrait: {fileID: 3442381422319381270, guid: 9cfdbaced9165904d82f793bbc8391a5, type: 3}
+  - dialogueIndex: 18
+    displayName: Majnun
+    displayPortrait: {fileID: -6329472127217758939, guid: 218e5b41c6878664dafb5b0ab593cdc4, type: 3}
+  - dialogueIndex: 19
+    displayName: Majnun
+    displayPortrait: {fileID: -6329472127217758939, guid: 218e5b41c6878664dafb5b0ab593cdc4, type: 3}
+  - dialogueIndex: 20
+    displayName: Majnun
+    displayPortrait: {fileID: -2297315480108249004, guid: 7cba3ae9395118f488d26eb36e7ee9b2, type: 3}
+  - dialogueIndex: 21
+    displayName: Peacock
+    displayPortrait: {fileID: -9203963056601620801, guid: 6b92b719c99c756438a18c48d8372ecf, type: 3}
+  - dialogueIndex: 22
+    displayName: Majnun
+    displayPortrait: {fileID: -2297315480108249004, guid: 7cba3ae9395118f488d26eb36e7ee9b2, type: 3}
+  - dialogueIndex: 23
+    displayName: Peacock
+    displayPortrait: {fileID: -9203963056601620801, guid: 6b92b719c99c756438a18c48d8372ecf, type: 3}
+  - dialogueIndex: 24
+    displayName: Majnun
+    displayPortrait: {fileID: -5587623082843299748, guid: 49ece5fb0daa2ed4ba12c413141023d1, type: 3}
+  - dialogueIndex: 25
+    displayName: Majnun
+    displayPortrait: {fileID: -5587623082843299748, guid: 49ece5fb0daa2ed4ba12c413141023d1, type: 3}
+  - dialogueIndex: 26
+    displayName: Majnun
+    displayPortrait: {fileID: -5587623082843299748, guid: 49ece5fb0daa2ed4ba12c413141023d1, type: 3}
+  - dialogueIndex: 27
+    displayName: Majnun
+    displayPortrait: {fileID: -2297315480108249004, guid: 7cba3ae9395118f488d26eb36e7ee9b2, type: 3}
+  - dialogueIndex: 28
+    displayName: Peacock
+    displayPortrait: {fileID: -9203963056601620801, guid: 6b92b719c99c756438a18c48d8372ecf, type: 3}
+  - dialogueIndex: 29
+    displayName: Peacock
+    displayPortrait: {fileID: -9203963056601620801, guid: 6b92b719c99c756438a18c48d8372ecf, type: 3}
+  - dialogueIndex: 30
+    displayName: Majnun
+    displayPortrait: {fileID: -2297315480108249004, guid: 7cba3ae9395118f488d26eb36e7ee9b2, type: 3}
+  - dialogueIndex: 31
+    displayName: Majnun
+    displayPortrait: {fileID: -1994471573321656780, guid: ccde52e8bd5eabd468f948a06c561eb9, type: 3}
+  - dialogueIndex: 32
+    displayName: Peacock
+    displayPortrait: {fileID: -9178916439338732956, guid: 9ec5b92b9137d00449c293ab58b68f5c, type: 3}
+  - dialogueIndex: 33
+    displayName: Peacock
+    displayPortrait: {fileID: -9203963056601620801, guid: 6b92b719c99c756438a18c48d8372ecf, type: 3}
+  - dialogueIndex: 34
+    displayName: Peacock
+    displayPortrait: {fileID: -9178916439338732956, guid: 9ec5b92b9137d00449c293ab58b68f5c, type: 3}
+  - dialogueIndex: 35
+    displayName: Peacock
+    displayPortrait: {fileID: -9178916439338732956, guid: 9ec5b92b9137d00449c293ab58b68f5c, type: 3}
+  - dialogueIndex: 36
+    displayName: Majnun
+    displayPortrait: {fileID: -2297315480108249004, guid: 7cba3ae9395118f488d26eb36e7ee9b2, type: 3}
+  choices:
+  - dialogueIndex: 6
     choices:
-    - Something Mean
-    - Something Nice
-    nextDialogueIndexes: 0300000004000000
+    - Confont Him
+    - Convey Sympathy
+    nextDialogueIndexes: 0700000013000000

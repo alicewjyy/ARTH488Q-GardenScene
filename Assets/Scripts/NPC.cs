@@ -1,7 +1,9 @@
 using TMPro;
 using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine.UI;
+using static UnityEditor.ArrayUtility;
 
 //Code taken from https://youtu.be/eSH9mzcMRqw?si=2HETwK3n_VBdYruZ
 public class NPC : MonoBehaviour, IInteractable
@@ -9,10 +11,16 @@ public class NPC : MonoBehaviour, IInteractable
     public NPCDialogue dialogueData;
     private DialogueController dialogueUI;
     public GameObject interactionIcon;
+    public Transform npcOverworld;
 
+    public Collider2D dialogueBarrier;
+    
     private int dialogueIndex;
     private bool isTyping;
     public bool isDialogueActive;
+
+    private bool hasTalked = false;
+
 
     private void Start()
     {
@@ -21,7 +29,7 @@ public class NPC : MonoBehaviour, IInteractable
 
     public bool CanInteract()
     {
-        return !isDialogueActive;
+        return !isDialogueActive && !hasTalked;
     }
 
     public void Interact()
@@ -47,7 +55,16 @@ public class NPC : MonoBehaviour, IInteractable
         isDialogueActive = true;
         dialogueIndex = 0;
 
-        dialogueUI.SetNPCInfo(dialogueData.npcName, dialogueData.npcPortrait);
+        foreach(DialogueDisplay dialogueDisplay in dialogueData.displayInfos)
+        {
+            Debug.Log(dialogueDisplay.dialogueIndex);
+
+            if(dialogueDisplay.dialogueIndex == dialogueIndex)
+            {
+                dialogueUI.SetNPCInfo(dialogueDisplay.displayName, dialogueDisplay.displayPortrait);
+            }
+        }
+
         dialogueUI.ShowDialogueUI(true);
 
         PauseController.SetPause(true);
@@ -58,6 +75,9 @@ public class NPC : MonoBehaviour, IInteractable
 
     void NextLine()
     {
+        //Clear Choices
+        dialogueUI.ClearChoices();
+
         if (isTyping)
         {
             // Skip typing animation and show the full line
@@ -66,32 +86,28 @@ public class NPC : MonoBehaviour, IInteractable
             isTyping = false;
         }
 
-        //Clear Choices
-        dialogueUI.ClearChoices();
-
         //Check endDialogueLines
-        if(dialogueData.endDialogueLines.Length > dialogueIndex && dialogueData.endDialogueLines[dialogueIndex])
+        else if(dialogueData.endDialogueLines.Length > dialogueIndex && dialogueData.endDialogueLines[dialogueIndex])
         {
             EndDialogue();
             return;
         }
 
-        //Check if choices & display
-        foreach(DialogueChoice dialogueChoice in dialogueData.choices)
+        else if (!isTyping && ++dialogueIndex < dialogueData.dialogueLines.Length)
         {
-            if(dialogueChoice.dialogueIndex == dialogueIndex)
+            foreach(DialogueChoice dialogueChoice in dialogueData.choices)
             {
-                DisplayChoices(dialogueChoice);
-                return;
+               if(dialogueChoice.dialogueIndex == dialogueIndex)
+               {
+                   DisplayChoices(dialogueChoice);
+                   return;
+               }
             }
-        }
 
-        if (++dialogueIndex < dialogueData.dialogueLines.Length)
-        {
            // If another line, type next line
            DisplayCurrentLine();
         }
-        else
+        else if(!isTyping)
         {
             EndDialogue();
         }
@@ -136,6 +152,16 @@ public class NPC : MonoBehaviour, IInteractable
     void DisplayCurrentLine()
     {
         StopAllCoroutines();
+
+        //Updates UI to current character name and portrait
+        foreach(DialogueDisplay dialogueDisplay in dialogueData.displayInfos)
+        {
+            if(dialogueDisplay.dialogueIndex == dialogueIndex)
+            {
+                dialogueUI.SetNPCInfo(dialogueDisplay.displayName, dialogueDisplay.displayPortrait);
+            }
+        }
+
         StartCoroutine(TypeLine());
     }
 
@@ -146,5 +172,19 @@ public class NPC : MonoBehaviour, IInteractable
         dialogueUI.SetDialogueText("");
         dialogueUI.ShowDialogueUI(false);
         PauseController.SetPause(false);
+
+        //Checks if player ended dialogue on the last line in the array, which is the end of the "correct" route
+        if (dialogueIndex == (dialogueData.dialogueLines.Length - 1))
+        {
+            //Player has completed interaction
+            hasTalked = true;
+
+            //Allows player walk past the NPC
+            if (dialogueBarrier != null)
+            {
+              dialogueBarrier.enabled = false;
+            }
+        }
+        
     }
 }
