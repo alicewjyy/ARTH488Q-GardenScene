@@ -1,0 +1,1037 @@
+fileFormatVersion: 2
+guid: d01c6b2223c88684e9f37e6390f07eea
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1831190530934934476
+    second: birdquestlogo_0
+  - first:
+      213: 4590722749612251624
+    second: birdquestlogo_1
+  - first:
+      213: -2946286455697778701
+    second: birdquestlogo_2
+  - first:
+      213: -8597839109808284136
+    second: birdquestlogo_3
+  - first:
+      213: 6462108131592987451
+    second: birdquestlogo_4
+  - first:
+      213: 3267412919272168944
+    second: birdquestlogo_5
+  - first:
+      213: -6704039846094746507
+    second: birdquestlogo_6
+  - first:
+      213: 2505483704570258026
+    second: birdquestlogo_7
+  - first:
+      213: 2353418413466368211
+    second: birdquestlogo_8
+  - first:
+      213: -7015860320598910801
+    second: birdquestlogo_9
+  - first:
+      213: 5765816553466681577
+    second: birdquestlogo_10
+  - first:
+      213: 2911794578322350801
+    second: birdquestlogo_11
+  - first:
+      213: 5849053573272324669
+    second: birdquestlogo_12
+  - first:
+      213: 1974441366883322388
+    second: birdquestlogo_13
+  - first:
+      213: -6904609430260587405
+    second: birdquestlogo_14
+  - first:
+      213: 933433669603232780
+    second: birdquestlogo_15
+  - first:
+      213: 3364849385786706719
+    second: birdquestlogo_16
+  - first:
+      213: -8792402542400798171
+    second: birdquestlogo_17
+  - first:
+      213: -4482650009352178757
+    second: birdquestlogo_18
+  - first:
+      213: 5052195550556493843
+    second: birdquestlogo_19
+  - first:
+      213: -2205061161461794631
+    second: birdquestlogo_20
+  - first:
+      213: -6852540423510007083
+    second: birdquestlogo_21
+  - first:
+      213: -4345099257027335601
+    second: birdquestlogo_22
+  - first:
+      213: -2744659602568537634
+    second: birdquestlogo_23
+  - first:
+      213: -8888654111737624613
+    second: birdquestlogo_24
+  - first:
+      213: -4096162536117986327
+    second: birdquestlogo_25
+  - first:
+      213: 5045646984295839954
+    second: birdquestlogo_26
+  - first:
+      213: 3623780089218041775
+    second: birdquestlogo_27
+  - first:
+      213: 7099966201571385517
+    second: birdquestlogo_28
+  - first:
+      213: -6463188192598911167
+    second: birdquestlogo_29
+  - first:
+      213: 2526272451382540715
+    second: birdquestlogo_30
+  - first:
+      213: 8483673249669896352
+    second: birdquestlogo_31
+  - first:
+      213: -5855863147470207427
+    second: birdquestlogo_32
+  - first:
+      213: -6545171451837989205
+    second: birdquestlogo_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: birdquestlogo_0
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 492
+        width: 336
+        height: 227
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccb8f68f512b96910800000000000000
+      internalID: 1831190530934934476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: birdquestlogo_1
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 668
+        width: 23
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e951f0a40685bf30800000000000000
+      internalID: 4590722749612251624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: birdquestlogo_2
+      rect:
+        serializedVersion: 2
+        x: 2258
+        y: 633
+        width: 89
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f7d6912410bc17d0800000000000000
+      internalID: -2946286455697778701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: birdquestlogo_3
+      rect:
+        serializedVersion: 2
+        x: 2306
+        y: 636
+        width: 86
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81e9ae702e65ea880800000000000000
+      internalID: -8597839109808284136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: birdquestlogo_4
+      rect:
+        serializedVersion: 2
+        x: 2515
+        y: 694
+        width: 13
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3363c3ab150ea950800000000000000
+      internalID: 6462108131592987451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: birdquestlogo_5
+      rect:
+        serializedVersion: 2
+        x: 2529
+        y: 705
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fd5db31dbe285d20800000000000000
+      internalID: 3267412919272168944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: birdquestlogo_6
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 624
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57c457d874776f2a0800000000000000
+      internalID: -6704039846094746507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: birdquestlogo_7
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 532
+        width: 169
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a62a079972445c220800000000000000
+      internalID: 2505483704570258026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: birdquestlogo_8
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 487
+        width: 61
+        height: 207
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d8b68ef39509a020800000000000000
+      internalID: 2353418413466368211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: birdquestlogo_9
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 530
+        width: 173
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa891f4c538a2ae90800000000000000
+      internalID: -7015860320598910801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: birdquestlogo_10
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 529
+        width: 157
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e8d2755b9b440050800000000000000
+      internalID: 5765816553466681577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: birdquestlogo_11
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 529
+        width: 173
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d2efcbddb5c86820800000000000000
+      internalID: 2911794578322350801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: birdquestlogo_12
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 529
+        width: 85
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3a402b3c330c2150800000000000000
+      internalID: 5849053573272324669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: birdquestlogo_13
+      rect:
+        serializedVersion: 2
+        x: 2257
+        y: 615
+        width: 86
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41acaee46ff966b10800000000000000
+      internalID: 1974441366883322388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: birdquestlogo_14
+      rect:
+        serializedVersion: 2
+        x: 2363
+        y: 603
+        width: 84
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 374618c2e46ed20a0800000000000000
+      internalID: -6904609430260587405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: birdquestlogo_15
+      rect:
+        serializedVersion: 2
+        x: 2363
+        y: 159
+        width: 222
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0c071a1af834fc00800000000000000
+      internalID: 933433669603232780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: birdquestlogo_16
+      rect:
+        serializedVersion: 2
+        x: 2431
+        y: 565
+        width: 70
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1b028a40b852be20800000000000000
+      internalID: 3364849385786706719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: birdquestlogo_17
+      rect:
+        serializedVersion: 2
+        x: 2487
+        y: 513
+        width: 61
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52285f9c87c1bf580800000000000000
+      internalID: -8792402542400798171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: birdquestlogo_18
+      rect:
+        serializedVersion: 2
+        x: 2290
+        y: 581
+        width: 89
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb3792c019d6ac1c0800000000000000
+      internalID: -4482650009352178757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: birdquestlogo_19
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 538
+        width: 110
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3189ab6e5110d1640800000000000000
+      internalID: 5052195550556493843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: birdquestlogo_20
+      rect:
+        serializedVersion: 2
+        x: 2581
+        y: 424
+        width: 33
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b83f0b7e8c0661e0800000000000000
+      internalID: -2205061161461794631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: birdquestlogo_21
+      rect:
+        serializedVersion: 2
+        x: 2252
+        y: 474
+        width: 61
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d26ea78ac2e6e0a0800000000000000
+      internalID: -6852540423510007083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: birdquestlogo_22
+      rect:
+        serializedVersion: 2
+        x: 2598
+        y: 381
+        width: 36
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4a621f3f3b13b3c0800000000000000
+      internalID: -4345099257027335601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: birdquestlogo_23
+      rect:
+        serializedVersion: 2
+        x: 2588
+        y: 305
+        width: 60
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed9998f12a209e9d0800000000000000
+      internalID: -2744659602568537634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: birdquestlogo_24
+      rect:
+        serializedVersion: 2
+        x: 2685
+        y: 408
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd74092fd2825a480800000000000000
+      internalID: -8888654111737624613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: birdquestlogo_25
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 144
+        width: 241
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eb9c6430e18727c0800000000000000
+      internalID: -4096162536117986327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: birdquestlogo_26
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 149
+        width: 109
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d879f0033db50640800000000000000
+      internalID: 5045646984295839954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: birdquestlogo_27
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 149
+        width: 519
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa789f1aac04a4230800000000000000
+      internalID: 3623780089218041775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: birdquestlogo_28
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 54
+        width: 544
+        height: 349
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da021f1a4a5288260800000000000000
+      internalID: 7099966201571385517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: birdquestlogo_29
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 145
+        width: 266
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14794af05942e46a0800000000000000
+      internalID: -6463188192598911167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: birdquestlogo_30
+      rect:
+        serializedVersion: 2
+        x: 1787
+        y: 149
+        width: 199
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba9f286e86f1f0320800000000000000
+      internalID: 2526272451382540715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: birdquestlogo_31
+      rect:
+        serializedVersion: 2
+        x: 2010
+        y: 145
+        width: 171
+        height: 257
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a8de054fdf0cb570800000000000000
+      internalID: 8483673249669896352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: birdquestlogo_32
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 149
+        width: 226
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d36ccb93e7bcbbea0800000000000000
+      internalID: -5855863147470207427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: birdquestlogo_33
+      rect:
+        serializedVersion: 2
+        x: 2638
+        y: 265
+        width: 67
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bae3b2b0e31ea25a0800000000000000
+      internalID: -6545171451837989205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: birdquestlogo_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2813
+        height: 834
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fce7e5652ca0994a8b3d7ff617f6f5a
+      internalID: 426514332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2c0b534ce9d697245947249a28999f94
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      birdquestlogo_0: 1831190530934934476
+      birdquestlogo_1: 4590722749612251624
+      birdquestlogo_10: 5765816553466681577
+      birdquestlogo_11: 2911794578322350801
+      birdquestlogo_12: 5849053573272324669
+      birdquestlogo_13: 1974441366883322388
+      birdquestlogo_14: -6904609430260587405
+      birdquestlogo_15: 933433669603232780
+      birdquestlogo_16: 3364849385786706719
+      birdquestlogo_17: -8792402542400798171
+      birdquestlogo_18: -4482650009352178757
+      birdquestlogo_19: 5052195550556493843
+      birdquestlogo_2: -2946286455697778701
+      birdquestlogo_20: -2205061161461794631
+      birdquestlogo_21: -6852540423510007083
+      birdquestlogo_22: -4345099257027335601
+      birdquestlogo_23: -2744659602568537634
+      birdquestlogo_24: -8888654111737624613
+      birdquestlogo_25: -4096162536117986327
+      birdquestlogo_26: 5045646984295839954
+      birdquestlogo_27: 3623780089218041775
+      birdquestlogo_28: 7099966201571385517
+      birdquestlogo_29: -6463188192598911167
+      birdquestlogo_3: -8597839109808284136
+      birdquestlogo_30: 2526272451382540715
+      birdquestlogo_31: 8483673249669896352
+      birdquestlogo_32: -5855863147470207427
+      birdquestlogo_33: -6545171451837989205
+      birdquestlogo_34: 426514332
+      birdquestlogo_4: 6462108131592987451
+      birdquestlogo_5: 3267412919272168944
+      birdquestlogo_6: -6704039846094746507
+      birdquestlogo_7: 2505483704570258026
+      birdquestlogo_8: 2353418413466368211
+      birdquestlogo_9: -7015860320598910801
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
