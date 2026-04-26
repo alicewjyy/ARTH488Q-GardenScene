@@ -12,59 +12,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee3764bdf07909042825ed7fafdf708a, type: 3}
   m_Name: PeacockDialogue
   m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
-  npcName:
-  - Majnun
-  - Peacock
-  npcPortrait1:
-  - {fileID: -9178916439338732956, guid: 9ec5b92b9137d00449c293ab58b68f5c, type: 3}
-  - {fileID: 3442381422319381270, guid: 9cfdbaced9165904d82f793bbc8391a5, type: 3}
-  - {fileID: -9203963056601620801, guid: 6b92b719c99c756438a18c48d8372ecf, type: 3}
-  npcPortrait2:
-  - {fileID: 1832643159004360861, guid: ad9c56e4193d07c4b8774160ae26e3cd, type: 3}
-  - {fileID: -6329472127217758939, guid: 218e5b41c6878664dafb5b0ab593cdc4, type: 3}
-  - {fileID: -2297315480108249004, guid: 7cba3ae9395118f488d26eb36e7ee9b2, type: 3}
-  - {fileID: -1994471573321656780, guid: ccde52e8bd5eabd468f948a06c561eb9, type: 3}
-  spriteExpOrder1: 00000000010000000200000002000000
-  spriteExpOrder2: 01000000010000000000000002000000
+  npcName: Peacock
+  npcPortrait: {fileID: -9178916439338732956, guid: 9ec5b92b9137d00449c293ab58b68f5c, type: 3}
   dialogueLines:
-  - What splendor in your stride! Yet it seems a shield against unseen wounds. Peacock,
-    why such fierce display in this lonely corner of the garden?
-  - "Your intrusion is unwanted. My plumage is unmatched, yet they cast me out for
-    Snake\u2019s lies. I am in no mood for your platitudes. Pester someone else! "
-  - 'You boast unmatched beauty, yet banishment festers. Does this flamboyance truly
-    heal the wound, or merely mask it? Isolation only deepens the shadow. '
-  - "What could a mere wanderer like you know of such matters? You are only a child
-    in these affairs. If you live to grow old, may fate rip your life\u2019s purpose
-    away as it has mine\u2014then you might begin to understand. Until then, learn
-    to keep your nose out of the business of your elders! "
-  - "This \u201Ccelestial wealth\u201D you claim\u2014does it not echo the Painter\u2019s
-    gift, yet hide a deeper truth? I have wandered deserts cast out as \u201Cmad,\u201D
-    yet love revealed worth beyond appearances. Show me your true feathers; deception
-    only betrays the soul. "
-  - "You dare expose what I conceal? This\u2026 this lie was my armor! "
-  - "Your new purpose lies not in borrowed glory, but confronting the deception and
-    growing at your own pace. The snake\u2019s lies thrive in hiding; truth unfolds
-    in time. "
-  - "Insufferable\u2026"
-  otherLines:
-  - "Your intrusion is unwanted. My plumage is unmatched, yet they cast me out for
-    Snake\u2019s lies. I am in no mood for your platitudes. Pester someone else! "
-  - "You\u2026 speak as one who has tasted exile. But my paradise of perfection is
-    lost forever to the snake. What use is your pity? "
-  - "You followed\u2026 even with that cursed thing. Why? "
-  - "Your words pierce deeper than any thorn. Isolation has only worsened this self-hatred.
-    Leaning on another\u2026 it is not weakness?"
-  - "Then I will return with you. This feather proves the snake\u2019s deception\u2014his
-    lies that turned my pride to poison. I lashed out because I feared my own incompleteness.
-    No more hiding. "
-  - "You have shown me what the manuscripts whisper: outer splendor is illusion.
-    The soul\u2019s pace is its own paradise. Thank you, wanderer. I am no longer
-    banished from myself. "
-  option: 0
-  order1: 0000000001000000000000000100000000000000010000000000000001000000
-  order2: 
-  autoProgressLines: 0000
+  - Hello there!
+  - This is test dialogue to see if the choices work.
+  - What will you choose?
+  - How rude!
+  - How nice!
+  autoProgressLines: 
+  endDialogueLines: 0000000101
   autoProgressDelay: 1.5
   typingSpeed: 0.05
   voiceSound: {fileID: 0}
   voicePitch: 1
+  choices:
+  - dialogueIndex: 2
+    choices:
+    - Something Mean
+    - Something Nice
+    nextDialogueIndexes: 0300000004000000

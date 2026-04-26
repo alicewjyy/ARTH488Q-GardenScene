@@ -48,7 +48,7 @@ public class InteractionDetector : MonoBehaviour
     {
         if (interactable is NPC npc)
         {
-            return npc.IsDialogueActive();
+            return npc.isDialogueActive;
         }
         return false;
     }
