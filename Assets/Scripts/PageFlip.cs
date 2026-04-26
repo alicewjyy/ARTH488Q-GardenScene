@@ -32,25 +32,47 @@ public class PageFlipController : MonoBehaviour
     }
 
     IEnumerator FlipPage(Transform page, float angle)
+{
+    isFlipping = true;
+
+    page.SetAsLastSibling();
+
+    Transform front = page.Find("Front");
+    Transform back = page.Find("Back");
+
+    Quaternion startRotation = page.rotation;
+    Quaternion endRotation = startRotation * Quaternion.Euler(0, angle, 0);
+
+    float time = 0;
+    bool swapped = false;
+
+    while (time < 1)
     {
-        isFlipping = true;
+        time += Time.deltaTime * flipSpeed;
+        page.rotation = Quaternion.Slerp(startRotation, endRotation, time);
 
-        page.SetAsLastSibling();
-
-        Quaternion startRotation = page.rotation;
-        Quaternion endRotation = startRotation * Quaternion.Euler(0, angle, 0);
-
-        float time = 0;
-
-        while (time < 1)
+        if (time >= 0.5f && !swapped)
         {
-            time += Time.deltaTime * flipSpeed;
-            page.rotation = Quaternion.Slerp(startRotation, endRotation, time);
-            yield return null;
+            if (angle > 0)
+            {
+                // Forward: show back side
+                if (front != null) front.gameObject.SetActive(false);
+                if (back != null) back.gameObject.SetActive(true);
+            }
+            else
+            {
+                // Backward: show front side
+                if (front != null) front.gameObject.SetActive(true);
+                if (back != null) back.gameObject.SetActive(false);
+            }
+
+            swapped = true;
         }
 
-        page.rotation = endRotation;
-
-        isFlipping = false;
+        yield return null;
     }
+
+    page.rotation = endRotation;
+    isFlipping = false;
+}
 }
