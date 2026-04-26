@@ -27,6 +27,12 @@ public class NPC : MonoBehaviour, IInteractable
         dialogueUI = DialogueController.Instance;
     }
 
+
+    void Start()
+    {
+        StartDialogue();
+    }
+
     public bool CanInteract()
     {
         return !isDialogueActive && !hasTalked;
@@ -37,15 +43,19 @@ public class NPC : MonoBehaviour, IInteractable
         // If no dialogue data or the game is paused and no dialogue is active
         if(dialogueData == null || (PauseController.IsGamePaused && !isDialogueActive))
         {
+            Debug.Log($"Dialogue Index: {dialogueIndex}");
+
             return;
         }
 
         if (isDialogueActive)
         {
+            Debug.Log($"Dialogue Index: {dialogueIndex}");
             NextLine();
         }
         else
         {
+            Debug.Log($"Dialogue Index: {dialogueIndex}");
             StartDialogue();
         }
     }

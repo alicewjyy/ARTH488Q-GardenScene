@@ -13,7 +13,7 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
     private float input;
     bool isFacingRight = false;
-    float jumpPower = 5f;
+    float jumpPower = 7f;
     bool isJumping = false;
 
 
@@ -25,6 +25,8 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        rb.freezeRotation = true;
+
     }
 
     // Update is called once per frame
