@@ -74,7 +74,7 @@ MonoBehaviour:
   - '(And so another learns: life is your own, and you move at a pace. Trust yourself.)'
   - '* Poem added to Book'
   autoProgressLines: 
-  endDialogueLines: 
+  endDialogueLines: 0000000000000000000000000000000000000000000000000000000000000000000000000001
   autoProgressDelay: 1.5
   typingSpeed: 0.05
   voiceSound: {fileID: 0}
@@ -192,7 +192,8 @@ MonoBehaviour:
     displayName: 
     displayPortrait: {fileID: 0}
   choices:
-  - choices:
+  - dialogueIndex: 5
+    choices:
     - Confront Him
     - Convey Sympathy
     nextDialogueIndexes: 070000000d000000

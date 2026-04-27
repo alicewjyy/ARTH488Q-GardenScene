@@ -35,6 +35,7 @@ public class DialogueDisplay
 [System.Serializable]
 public class DialogueChoice
 {
+    public int dialogueIndex;
     public string[] choices; //Player response option
     public int[] nextDialogueIndexes; //Where choice leads
 }
