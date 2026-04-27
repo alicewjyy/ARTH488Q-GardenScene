@@ -453,6 +453,7 @@ MonoBehaviour:
   targetSize: 1
   duration: 3
   flashAnimator: {fileID: 2079940419}
+  target: {fileID: 1206107783}
 --- !u!114 &676705401
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -568,6 +569,37 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1206107782
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1206107783}
+  m_Layer: 0
+  m_Name: Cam Zoom Target
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1206107783
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1206107782}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9.45, y: -11.33, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1294901929
 GameObject:
   m_ObjectHideFlags: 0
@@ -1132,3 +1164,4 @@ SceneRoots:
   - {fileID: 692527821}
   - {fileID: 1867832168}
   - {fileID: 1294901931}
+  - {fileID: 1206107783}

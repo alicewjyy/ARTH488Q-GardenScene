@@ -66,5 +66,5 @@
     "explorer.fileNesting.patterns": {
         "*.sln": "*.csproj"
     },
-    "dotnet.defaultSolution": "ARTH488Q scene1.sln"
+    "dotnet.defaultSolution": "ARTH488Q-GardenScene.sln"
 }

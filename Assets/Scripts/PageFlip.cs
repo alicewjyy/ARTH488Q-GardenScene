@@ -9,9 +9,13 @@ public class PageFlipController : MonoBehaviour
     private int currentPage = 0;
     private bool isFlipping = false;
 
+    public AudioSource flipSound;
+
     public void FlipForward()
     {
         if (isFlipping) return;
+
+        flipSound.Play();
 
         if (currentPage < pages.Length)
         {
@@ -23,6 +27,8 @@ public class PageFlipController : MonoBehaviour
     public void FlipBackward()
     {
         if (isFlipping) return;
+
+        flipSound.Play();
 
         if (currentPage > 0)
         {
