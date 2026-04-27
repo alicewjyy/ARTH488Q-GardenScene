@@ -74,7 +74,7 @@ MonoBehaviour:
   - '(And so another learns: life is your own, and you move at a pace. Trust yourself.)'
   - '* Poem added to Book'
   autoProgressLines: 
-  endDialogueLines: 
+  endDialogueLines: 0000000000000000000000000000000000000100000000000000000000000000000000000001
   autoProgressDelay: 1.5
   typingSpeed: 0.05
   voiceSound: {fileID: 0}
@@ -118,7 +118,7 @@ MonoBehaviour:
     displayPortrait: {fileID: 3442381422319381270, guid: 9cfdbaced9165904d82f793bbc8391a5, type: 3}
   - dialogueIndex: 12
     displayName: Majnun
-    displayPortrait: {fileID: -5587623082843299748, guid: 49ece5fb0daa2ed4ba12c413141023d1, type: 3}
+    displayPortrait: {fileID: 1832643159004360861, guid: ad9c56e4193d07c4b8774160ae26e3cd, type: 3}
   - dialogueIndex: 13
     displayName: Majnun
     displayPortrait: {fileID: 1832643159004360861, guid: ad9c56e4193d07c4b8774160ae26e3cd, type: 3}
@@ -152,47 +152,51 @@ MonoBehaviour:
   - dialogueIndex: 23
     displayName: Peacock
     displayPortrait: {fileID: -9178916439338732956, guid: 9ec5b92b9137d00449c293ab58b68f5c, type: 3}
-  - dialogueIndex: 0
-    displayName: 
-    displayPortrait: {fileID: 0}
-  - dialogueIndex: 0
-    displayName: 
-    displayPortrait: {fileID: 0}
-  - dialogueIndex: 0
-    displayName: 
-    displayPortrait: {fileID: 0}
-  - dialogueIndex: 0
-    displayName: 
-    displayPortrait: {fileID: 0}
-  - dialogueIndex: 0
-    displayName: 
-    displayPortrait: {fileID: 0}
-  - dialogueIndex: 0
-    displayName: 
-    displayPortrait: {fileID: 0}
-  - dialogueIndex: 0
-    displayName: 
-    displayPortrait: {fileID: 0}
-  - dialogueIndex: 0
-    displayName: 
-    displayPortrait: {fileID: 0}
-  - dialogueIndex: 0
-    displayName: 
-    displayPortrait: {fileID: 0}
-  - dialogueIndex: 0
-    displayName: 
-    displayPortrait: {fileID: 0}
-  - dialogueIndex: 0
-    displayName: 
-    displayPortrait: {fileID: 0}
-  - dialogueIndex: 0
-    displayName: 
-    displayPortrait: {fileID: 0}
-  - dialogueIndex: 0
-    displayName: 
-    displayPortrait: {fileID: 0}
+  - dialogueIndex: 24
+    displayName: Majnun
+    displayPortrait: {fileID: -5587623082843299748, guid: 49ece5fb0daa2ed4ba12c413141023d1, type: 3}
+  - dialogueIndex: 25
+    displayName: Majnun
+    displayPortrait: {fileID: -5587623082843299748, guid: 49ece5fb0daa2ed4ba12c413141023d1, type: 3}
+  - dialogueIndex: 26
+    displayName: Majnun
+    displayPortrait: {fileID: -5587623082843299748, guid: 49ece5fb0daa2ed4ba12c413141023d1, type: 3}
+  - dialogueIndex: 27
+    displayName: Majnun
+    displayPortrait: {fileID: -5587623082843299748, guid: 49ece5fb0daa2ed4ba12c413141023d1, type: 3}
+  - dialogueIndex: 28
+    displayName: Peacock
+    displayPortrait: {fileID: -9203963056601620801, guid: 6b92b719c99c756438a18c48d8372ecf, type: 3}
+  - dialogueIndex: 29
+    displayName: Peacock
+    displayPortrait: {fileID: -9203963056601620801, guid: 6b92b719c99c756438a18c48d8372ecf, type: 3}
+  - dialogueIndex: 30
+    displayName: Majnun
+    displayPortrait: {fileID: -2297315480108249004, guid: 7cba3ae9395118f488d26eb36e7ee9b2, type: 3}
+  - dialogueIndex: 31
+    displayName: Majnun
+    displayPortrait: {fileID: -1994471573321656780, guid: ccde52e8bd5eabd468f948a06c561eb9, type: 3}
+  - dialogueIndex: 32
+    displayName: Peacock
+    displayPortrait: {fileID: -9203963056601620801, guid: 6b92b719c99c756438a18c48d8372ecf, type: 3}
+  - dialogueIndex: 33
+    displayName: Peacock
+    displayPortrait: {fileID: -9203963056601620801, guid: 6b92b719c99c756438a18c48d8372ecf, type: 3}
+  - dialogueIndex: 34
+    displayName: Peacock
+    displayPortrait: {fileID: -9203963056601620801, guid: 6b92b719c99c756438a18c48d8372ecf, type: 3}
+  - dialogueIndex: 35
+    displayName: Peacock
+    displayPortrait: {fileID: -9178916439338732956, guid: 9ec5b92b9137d00449c293ab58b68f5c, type: 3}
+  - dialogueIndex: 36
+    displayName: Majnun
+    displayPortrait: {fileID: -2297315480108249004, guid: 7cba3ae9395118f488d26eb36e7ee9b2, type: 3}
+  - dialogueIndex: 36
+    displayName: Majnun
+    displayPortrait: {fileID: -8962151927268179738, guid: a2fa307b7b964244284460c7a0958599, type: 3}
   choices:
-  - choices:
+  - dialogueIndex: 7
+    choices:
     - Confront Him
     - Convey Sympathy
-    nextDialogueIndexes: 070000000d000000
+    nextDialogueIndexes: 0700000013000000

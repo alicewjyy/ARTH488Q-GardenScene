@@ -18,6 +18,7 @@ public class NPC : MonoBehaviour, IInteractable
     private int dialogueIndex;
     private bool isTyping;
     public bool isDialogueActive;
+    
 
     private bool hasTalked = false;
 
@@ -103,10 +104,13 @@ public class NPC : MonoBehaviour, IInteractable
         {
             foreach (DialogueChoice dialogueChoice in dialogueData.choices)
             {
-                
+
+                if (dialogueChoice.dialogueIndex == dialogueIndex)
+                {
                     DisplayChoices(dialogueChoice);
                     return;
                 }
+            }
             
 
             // If another line, type next line

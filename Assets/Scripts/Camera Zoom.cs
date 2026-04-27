@@ -11,10 +11,15 @@ public class CameraZoomIntro : MonoBehaviour
     private Camera cam;
     private bool zoom = false;
 
+    public Transform target;
+
+    private Vector3 startPos;
+
     void Start()
     {
         cam = Camera.main;
         startSize = cam.orthographicSize;
+        startPos = cam.transform.position;
     }
 
     void Update()
@@ -25,6 +30,10 @@ public class CameraZoomIntro : MonoBehaviour
             float t = Mathf.SmoothStep(0, 1, timer / duration);
 
             cam.orthographicSize = Mathf.Lerp(startSize, targetSize, t);
+
+            Vector3 targetPos = new Vector3(target.position.x, target.position.y, startPos.z);
+
+            cam.transform.position = Vector3.Lerp(startPos, targetPos, t);
 
             if (timer >= duration)
             {
