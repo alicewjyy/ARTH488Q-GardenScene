@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21559938ab4222b4ea2e5b634c0bfb9b, type: 3}
+  m_Name: NPCDL
+  m_EditorClassIdentifier: Assembly-CSharp::NPCDL
+  npcName:
+  - Majnun
+  - Nightingale
+  npcPortrait1:
+  - {fileID: 1191705544721943975, guid: 2be68d3acd34d1645acb83c9693efca6, type: 3}
+  - {fileID: 3501143081159827622, guid: af23c5ddf3d89a54e9237bca12f49028, type: 3}
+  npcPortrait2:
+  - {fileID: 1832643159004360861, guid: ad9c56e4193d07c4b8774160ae26e3cd, type: 3}
+  - {fileID: -6329472127217758939, guid: 218e5b41c6878664dafb5b0ab593cdc4, type: 3}
+  - {fileID: -5587623082843299748, guid: 49ece5fb0daa2ed4ba12c413141023d1, type: 3}
+  - {fileID: -8962151927268179738, guid: a2fa307b7b964244284460c7a0958599, type: 3}
+  spriteExpOrder1: 0100000000000000020000000200000000000000010000000100000001000000
+  spriteExpOrder2: 0100000001000000010000000100000001000000010000000100000001000000
+  dialogueLines:
+  - 'Dear Nightingale, what troubles you? You sing a song that makes men long to
+    die! '
+  - "Have you come to state the obvious? Hoopoe, I hadn\u2019t taken you for such
+    a foul-spirited mocking-bird! "
+  - 'Wait a moment, I- '
+  - 'My sweet rose is gone; from her dear presence I could never stir. Begone, I
+    am in no mood for your platitudes.   You may certainly now take your leave. '
+  - 'If you truly wish for me to go, then I will.  But I know something of lost love
+    myself, and you need not be alone in sorrow. '
+  - "What could you know of my pain? My grief is one that no bird knows\u2013 the
+    only one who understood was my dear Rose. Without her, my continued existence
+    is without reason. "
+  - "You are only a child. If you live to grow old, may fate rip your life\u2019s
+    purpose away from you as it has mine. Then you might begin to understand.  "
+  - 'Until then, learn to keep your nose out of the business of your elders! '
+  - "Your life\u2019s purpose? "
+  - 'Are you very much done? You are insufferable.  '
+  - "I could lend an ear at the very least\u2013 or perhaps; I could share with you
+    a verse of my own? "
+  - "Why, so that you may measure your sorrow against mine? \u2026Fine. Humor me
+    with your sniveling "
+  - 'Do you not see? Rose is not gone, she is with you. She is in your heart and
+    in this egg. It is only you who waits for the past. How can you continue on when
+    you live for who you once were? '
+  - 'You write with grace. But your words cannot beguile me. '
+  - "As he turns away, Majnun notices a slight trembling in the bird\u2019s form.
+    Without a word further, Nightingale takes off into the night sky."
+  otherLines: []
+  option: 0
+  order1: 000000000100000000000000010000000000000001000000010000000100000000000000010000000000000000000000010000000000000000000000
+  order2: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  autoProgressLines: 010101010101010101010101010101
+  autoProgressDelay: 1.5
+  typingSpeed: 0.05
+  voiceSound: {fileID: 0}
+  voicePitch: 1

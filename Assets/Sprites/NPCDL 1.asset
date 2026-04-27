@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21559938ab4222b4ea2e5b634c0bfb9b, type: 3}
+  m_Name: NPCDL 1
+  m_EditorClassIdentifier: Assembly-CSharp::NPCDL
+  npcName:
+  - Nightingale
+  - Majnun
+  npcPortrait1:
+  - {fileID: 3501143081159827622, guid: af23c5ddf3d89a54e9237bca12f49028, type: 3}
+  - {fileID: 3501143081159827622, guid: af23c5ddf3d89a54e9237bca12f49028, type: 3}
+  - {fileID: 1832643159004360861, guid: ad9c56e4193d07c4b8774160ae26e3cd, type: 3}
+  - {fileID: -6329472127217758939, guid: 218e5b41c6878664dafb5b0ab593cdc4, type: 3}
+  - {fileID: -5587623082843299748, guid: 49ece5fb0daa2ed4ba12c413141023d1, type: 3}
+  - {fileID: -8962151927268179738, guid: a2fa307b7b964244284460c7a0958599, type: 3}
+  npcPortrait2:
+  - {fileID: 1191705544721943975, guid: 2be68d3acd34d1645acb83c9693efca6, type: 3}
+  - {fileID: 3501143081159827622, guid: af23c5ddf3d89a54e9237bca12f49028, type: 3}
+  - {fileID: -5587623082843299748, guid: 49ece5fb0daa2ed4ba12c413141023d1, type: 3}
+  - {fileID: -8962151927268179738, guid: a2fa307b7b964244284460c7a0958599, type: 3}
+  spriteExpOrder1: 03000000020000000100000000000000000000000300000000000000
+  spriteExpOrder2: 00000000000000000000000000000000000000000000000000000000
+  dialogueLines:
+  - What is there left to say? Like a coward, I have fled and abandoned the last
+    memory of Rose.
+  - The winds of fate deemed me unworthy of love, and I have now doubly proved my
+    unworthiness to steward this child.
+  - "I have traveled this way\u2013 no easy task for my form. If I had wings, I could
+    have soared over the obstacles in my way and come to you much earlier. "
+  - 'But if that were to be the case, perhaps I would have found you in a state unwilling
+    to hear my words, and perhaps if I had not been trialed, I might have found agreement
+    in yours. You are loved. '
+  - "Rose to you is irreplaceable, that much is clear. For as much love as you have
+    for her, the pain of her loss is twofold. If she stood here in your place, would
+    she have \u2018abandoned\u2019 this egg as you have claimed to? "
+  - 'Preposterous to even suggest such a thing. *Scoff*. My Rose was as caring as
+    she was beautiful. Should she be here and I lay dead in the ground, all things
+    must be right and just. If she were here, this child would want for nothing and
+    not be stranded, but blossom in her sight. How could I leave for a single night? '
+  - 'You think quite highly of her. '
+  - 'An understatement; I am so drowned in her love that I can find no thought of
+    my existence in my mind. '
+  - 'Her choice of yourself as a life partner and parent, do you find that decision
+    a product of her ignorance or negligence? '
+  - 'I resent your questioning; she had been neither. '
+  - 'If you should think her wise, then in her wisdom, she found worthiness in you.
+    This egg is evidence of that. '
+  - 'Despite what you believe yourself to be, she saw in you a capacity for love
+    that matched her own. One that she may entrust with her flesh and blood. '
+  otherLines: []
+  option: 0
+  order1: 000000000000000001000000010000000100000000000000010000000000000001000000000000000100000001000000
+  order2: 
+  autoProgressLines: 010101010101010101010101
+  autoProgressDelay: 1.5
+  typingSpeed: 0.05
+  voiceSound: {fileID: 0}
+  voicePitch: 1
