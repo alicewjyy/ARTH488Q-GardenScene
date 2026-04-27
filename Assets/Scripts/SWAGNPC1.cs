@@ -22,6 +22,8 @@ public class SWAGNPC1 : MonoBehaviour, IInteractable
 
     private int image_index = 0;
     private int exp_index = 0;
+    private int exp_index1 = 0;
+
 
 
     private int dialogueIndex;
@@ -130,10 +132,16 @@ public class SWAGNPC1 : MonoBehaviour, IInteractable
             else
             {
 
-                portraitImage.sprite = dialogueData.npcPortrait2[0];
+                int spriteIndex = dialogueData.spriteExpOrder2[exp_index1];
 
+                if (spriteIndex >= 0 &&
+                    spriteIndex < dialogueData.npcPortrait2.Length)
+                {
+                    portraitImage.sprite = dialogueData.npcPortrait2[spriteIndex];
+                }
 
                 nameText.SetText(dialogueData.npcName[0]);
+                exp_index1++;   
             }
 
             StartCoroutine(TypeLine());
