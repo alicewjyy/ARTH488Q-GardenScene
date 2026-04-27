@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee3764bdf07909042825ed7fafdf708a, type: 3}
   m_Name: PeacockDialogue
   m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
+  npcName: Peacock
+  npcPortrait: {fileID: -9178916439338732956, guid: 9ec5b92b9137d00449c293ab58b68f5c, type: 3}
   dialogueLines:
   - (A beautiful peacock stands before me. I would like to ask him more about this
     strange  garden I have found myself in, but...)
@@ -72,124 +74,10 @@ MonoBehaviour:
   - '(And so another learns: life is your own, and you move at a pace. Trust yourself.)'
   - '* Poem added to Book'
   autoProgressLines: 
-  endDialogueLines: 0000000000000000000000000000000000000100000000000000000000000000000000000001
+  endDialogueLines: 
   autoProgressDelay: 1.5
   typingSpeed: 0.05
-  displayInfos:
-  - dialogueIndex: 0
-    displayName: Majnun
-    displayPortrait: {fileID: -8962151927268179738, guid: a2fa307b7b964244284460c7a0958599, type: 3}
-  - dialogueIndex: 1
-    displayName: Majnun
-    displayPortrait: {fileID: -6329472127217758939, guid: 218e5b41c6878664dafb5b0ab593cdc4, type: 3}
-  - dialogueIndex: 2
-    displayName: Majnun
-    displayPortrait: {fileID: -8962151927268179738, guid: a2fa307b7b964244284460c7a0958599, type: 3}
-  - dialogueIndex: 3
-    displayName: Majnun
-    displayPortrait: {fileID: -6329472127217758939, guid: 218e5b41c6878664dafb5b0ab593cdc4, type: 3}
-  - dialogueIndex: 4
-    displayName: Peacock
-    displayPortrait: {fileID: 3442381422319381270, guid: 9cfdbaced9165904d82f793bbc8391a5, type: 3}
-  - dialogueIndex: 5
-    displayName: Peacock
-    displayPortrait: {fileID: 3442381422319381270, guid: 9cfdbaced9165904d82f793bbc8391a5, type: 3}
-  - dialogueIndex: 6
-    displayName: Majnun
-    displayPortrait: {fileID: -6329472127217758939, guid: 218e5b41c6878664dafb5b0ab593cdc4, type: 3}
-  - dialogueIndex: 7
-    displayName: Majnun
-    displayPortrait: {fileID: 1832643159004360861, guid: ad9c56e4193d07c4b8774160ae26e3cd, type: 3}
-  - dialogueIndex: 8
-    displayName: Majnun
-    displayPortrait: {fileID: -6329472127217758939, guid: 218e5b41c6878664dafb5b0ab593cdc4, type: 3}
-  - dialogueIndex: 9
-    displayName: Peacock
-    displayPortrait: {fileID: 3442381422319381270, guid: 9cfdbaced9165904d82f793bbc8391a5, type: 3}
-  - dialogueIndex: 10
-    displayName: Peacock
-    displayPortrait: {fileID: 3442381422319381270, guid: 9cfdbaced9165904d82f793bbc8391a5, type: 3}
-  - dialogueIndex: 11
-    displayName: Peacock
-    displayPortrait: {fileID: 3442381422319381270, guid: 9cfdbaced9165904d82f793bbc8391a5, type: 3}
-  - dialogueIndex: 12
-    displayName: Majnun
-    displayPortrait: {fileID: 1832643159004360861, guid: ad9c56e4193d07c4b8774160ae26e3cd, type: 3}
-  - dialogueIndex: 13
-    displayName: Majnun
-    displayPortrait: {fileID: 1832643159004360861, guid: ad9c56e4193d07c4b8774160ae26e3cd, type: 3}
-  - dialogueIndex: 14
-    displayName: Peacock
-    displayPortrait: {fileID: 3442381422319381270, guid: 9cfdbaced9165904d82f793bbc8391a5, type: 3}
-  - dialogueIndex: 15
-    displayName: Majnun
-    displayPortrait: {fileID: 1832643159004360861, guid: ad9c56e4193d07c4b8774160ae26e3cd, type: 3}
-  - dialogueIndex: 16
-    displayName: Majnun
-    displayPortrait: {fileID: 1832643159004360861, guid: ad9c56e4193d07c4b8774160ae26e3cd, type: 3}
-  - dialogueIndex: 17
-    displayName: Peacock
-    displayPortrait: {fileID: 3442381422319381270, guid: 9cfdbaced9165904d82f793bbc8391a5, type: 3}
-  - dialogueIndex: 18
-    displayName: Majnun
-    displayPortrait: {fileID: -6329472127217758939, guid: 218e5b41c6878664dafb5b0ab593cdc4, type: 3}
-  - dialogueIndex: 19
-    displayName: Majnun
-    displayPortrait: {fileID: -6329472127217758939, guid: 218e5b41c6878664dafb5b0ab593cdc4, type: 3}
-  - dialogueIndex: 20
-    displayName: Majnun
-    displayPortrait: {fileID: -2297315480108249004, guid: 7cba3ae9395118f488d26eb36e7ee9b2, type: 3}
-  - dialogueIndex: 21
-    displayName: Peacock
-    displayPortrait: {fileID: -9203963056601620801, guid: 6b92b719c99c756438a18c48d8372ecf, type: 3}
-  - dialogueIndex: 22
-    displayName: Majnun
-    displayPortrait: {fileID: -2297315480108249004, guid: 7cba3ae9395118f488d26eb36e7ee9b2, type: 3}
-  - dialogueIndex: 23
-    displayName: Peacock
-    displayPortrait: {fileID: -9203963056601620801, guid: 6b92b719c99c756438a18c48d8372ecf, type: 3}
-  - dialogueIndex: 24
-    displayName: Majnun
-    displayPortrait: {fileID: -5587623082843299748, guid: 49ece5fb0daa2ed4ba12c413141023d1, type: 3}
-  - dialogueIndex: 25
-    displayName: Majnun
-    displayPortrait: {fileID: -5587623082843299748, guid: 49ece5fb0daa2ed4ba12c413141023d1, type: 3}
-  - dialogueIndex: 26
-    displayName: Majnun
-    displayPortrait: {fileID: -5587623082843299748, guid: 49ece5fb0daa2ed4ba12c413141023d1, type: 3}
-  - dialogueIndex: 27
-    displayName: Majnun
-    displayPortrait: {fileID: -2297315480108249004, guid: 7cba3ae9395118f488d26eb36e7ee9b2, type: 3}
-  - dialogueIndex: 28
-    displayName: Peacock
-    displayPortrait: {fileID: -9203963056601620801, guid: 6b92b719c99c756438a18c48d8372ecf, type: 3}
-  - dialogueIndex: 29
-    displayName: Peacock
-    displayPortrait: {fileID: -9203963056601620801, guid: 6b92b719c99c756438a18c48d8372ecf, type: 3}
-  - dialogueIndex: 30
-    displayName: Majnun
-    displayPortrait: {fileID: -2297315480108249004, guid: 7cba3ae9395118f488d26eb36e7ee9b2, type: 3}
-  - dialogueIndex: 31
-    displayName: Majnun
-    displayPortrait: {fileID: -1994471573321656780, guid: ccde52e8bd5eabd468f948a06c561eb9, type: 3}
-  - dialogueIndex: 32
-    displayName: Peacock
-    displayPortrait: {fileID: -9178916439338732956, guid: 9ec5b92b9137d00449c293ab58b68f5c, type: 3}
-  - dialogueIndex: 33
-    displayName: Peacock
-    displayPortrait: {fileID: -9203963056601620801, guid: 6b92b719c99c756438a18c48d8372ecf, type: 3}
-  - dialogueIndex: 34
-    displayName: Peacock
-    displayPortrait: {fileID: -9178916439338732956, guid: 9ec5b92b9137d00449c293ab58b68f5c, type: 3}
-  - dialogueIndex: 35
-    displayName: Peacock
-    displayPortrait: {fileID: -9178916439338732956, guid: 9ec5b92b9137d00449c293ab58b68f5c, type: 3}
-  - dialogueIndex: 36
-    displayName: Majnun
-    displayPortrait: {fileID: -2297315480108249004, guid: 7cba3ae9395118f488d26eb36e7ee9b2, type: 3}
-  choices:
-  - dialogueIndex: 6
-    choices:
-    - Confont Him
-    - Convey Sympathy
-    nextDialogueIndexes: 0700000013000000
+  voiceSound: {fileID: 0}
+  voicePitch: 1
+  displayInfos: []
+  choices: []
