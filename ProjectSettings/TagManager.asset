@@ -1,14 +1,9 @@
-%YAML 1.1
+@ -2,42 +2,59 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 3
-<<<<<<< Updated upstream
+  serializedVersion: 2
   tags: []
-=======
-  tags:
-  - Overrides
->>>>>>> Stashed changes
   layers:
   - Default
   - TransparentFX
@@ -46,7 +41,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-<<<<<<< Updated upstream
   - name: Background
     uniqueID: 1697799615
     locked: 0
@@ -62,7 +56,5 @@ TagManager:
   - name: WalkBehind
     uniqueID: 2916739903
     locked: 0
-=======
->>>>>>> Stashed changes
   m_RenderingLayers:
   - Default
