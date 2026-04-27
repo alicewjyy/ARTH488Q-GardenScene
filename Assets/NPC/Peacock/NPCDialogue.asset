@@ -152,43 +152,43 @@ MonoBehaviour:
   - dialogueIndex: 23
     displayName: Peacock
     displayPortrait: {fileID: -9178916439338732956, guid: 9ec5b92b9137d00449c293ab58b68f5c, type: 3}
-  - dialogueIndex: 0
+  - dialogueIndex: 24
     displayName: 
     displayPortrait: {fileID: 0}
-  - dialogueIndex: 0
+  - dialogueIndex: 25
     displayName: 
     displayPortrait: {fileID: 0}
-  - dialogueIndex: 0
+  - dialogueIndex: 26
     displayName: 
     displayPortrait: {fileID: 0}
-  - dialogueIndex: 0
+  - dialogueIndex: 27
     displayName: 
     displayPortrait: {fileID: 0}
-  - dialogueIndex: 0
+  - dialogueIndex: 28
     displayName: 
     displayPortrait: {fileID: 0}
-  - dialogueIndex: 0
+  - dialogueIndex: 29
+    displayName: 2
+    displayPortrait: {fileID: 0}
+  - dialogueIndex: 30
     displayName: 
     displayPortrait: {fileID: 0}
-  - dialogueIndex: 0
+  - dialogueIndex: 31
+    displayName: 
+    displayPortrait: {fileID: -9178916439338732956, guid: 9ec5b92b9137d00449c293ab58b68f5c, type: 3}
+  - dialogueIndex: 32
     displayName: 
     displayPortrait: {fileID: 0}
-  - dialogueIndex: 0
+  - dialogueIndex: 33
     displayName: 
     displayPortrait: {fileID: 0}
-  - dialogueIndex: 0
+  - dialogueIndex: 34
     displayName: 
     displayPortrait: {fileID: 0}
-  - dialogueIndex: 0
+  - dialogueIndex: 35
     displayName: 
     displayPortrait: {fileID: 0}
-  - dialogueIndex: 0
-    displayName: 
-    displayPortrait: {fileID: 0}
-  - dialogueIndex: 0
-    displayName: 
-    displayPortrait: {fileID: 0}
-  - dialogueIndex: 0
+  - dialogueIndex: 36
     displayName: 
     displayPortrait: {fileID: 0}
   choices:

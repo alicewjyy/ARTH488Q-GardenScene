@@ -9124,10 +9124,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 363a6107dcf227740bce30eb2e33b060, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPC
-  dialogueData: {fileID: 0}
-  interactionIcon: {fileID: 0}
-  npcOverworld: {fileID: 0}
-  dialogueBarrier: {fileID: 0}
+  dialogueData: {fileID: 11400000, guid: a4b27938c9c384c42a8eba52d2df6f34, type: 2}
+  interactionIcon: {fileID: 1996175785}
+  npcOverworld: {fileID: 1572981686}
+  dialogueBarrier: {fileID: 582171117}
   isDialogueActive: 0
 --- !u!1 &2084537353
 GameObject:
