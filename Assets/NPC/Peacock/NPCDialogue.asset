@@ -139,16 +139,16 @@ MonoBehaviour:
     displayPortrait: {fileID: -6329472127217758939, guid: 218e5b41c6878664dafb5b0ab593cdc4, type: 3}
   - dialogueIndex: 19
     displayName: Majnun
-    displayPortrait: {fileID: -2297315480108249004, guid: 7cba3ae9395118f488d26eb36e7ee9b2, type: 3}
+    displayPortrait: {fileID: -6329472127217758939, guid: 218e5b41c6878664dafb5b0ab593cdc4, type: 3}
   - dialogueIndex: 20
     displayName: Majnun
-    displayPortrait: {fileID: -1994471573321656780, guid: ccde52e8bd5eabd468f948a06c561eb9, type: 3}
+    displayPortrait: {fileID: -7159460699524869799, guid: 60e76a65af31bce4a93b801195ebd3f2, type: 3}
   - dialogueIndex: 21
     displayName: Peacock
     displayPortrait: {fileID: -9203963056601620801, guid: 6b92b719c99c756438a18c48d8372ecf, type: 3}
   - dialogueIndex: 22
     displayName: Majnun
-    displayPortrait: {fileID: -1994471573321656780, guid: ccde52e8bd5eabd468f948a06c561eb9, type: 3}
+    displayPortrait: {fileID: -2297315480108249004, guid: 7cba3ae9395118f488d26eb36e7ee9b2, type: 3}
   - dialogueIndex: 23
     displayName: Peacock
     displayPortrait: {fileID: -9178916439338732956, guid: 9ec5b92b9137d00449c293ab58b68f5c, type: 3}
@@ -160,10 +160,10 @@ MonoBehaviour:
     displayPortrait: {fileID: -5587623082843299748, guid: 49ece5fb0daa2ed4ba12c413141023d1, type: 3}
   - dialogueIndex: 26
     displayName: Majnun
-    displayPortrait: {fileID: -5587623082843299748, guid: 49ece5fb0daa2ed4ba12c413141023d1, type: 3}
+    displayPortrait: {fileID: -7159460699524869799, guid: 60e76a65af31bce4a93b801195ebd3f2, type: 3}
   - dialogueIndex: 27
     displayName: Majnun
-    displayPortrait: {fileID: -5587623082843299748, guid: 49ece5fb0daa2ed4ba12c413141023d1, type: 3}
+    displayPortrait: {fileID: -2297315480108249004, guid: 7cba3ae9395118f488d26eb36e7ee9b2, type: 3}
   - dialogueIndex: 28
     displayName: Peacock
     displayPortrait: {fileID: -9203963056601620801, guid: 6b92b719c99c756438a18c48d8372ecf, type: 3}
@@ -172,28 +172,28 @@ MonoBehaviour:
     displayPortrait: {fileID: -9203963056601620801, guid: 6b92b719c99c756438a18c48d8372ecf, type: 3}
   - dialogueIndex: 30
     displayName: Majnun
-    displayPortrait: {fileID: -2297315480108249004, guid: 7cba3ae9395118f488d26eb36e7ee9b2, type: 3}
+    displayPortrait: {fileID: -7159460699524869799, guid: 60e76a65af31bce4a93b801195ebd3f2, type: 3}
   - dialogueIndex: 31
     displayName: Majnun
     displayPortrait: {fileID: -1994471573321656780, guid: ccde52e8bd5eabd468f948a06c561eb9, type: 3}
   - dialogueIndex: 32
     displayName: Peacock
-    displayPortrait: {fileID: -9203963056601620801, guid: 6b92b719c99c756438a18c48d8372ecf, type: 3}
+    displayPortrait: {fileID: -9178916439338732956, guid: 9ec5b92b9137d00449c293ab58b68f5c, type: 3}
   - dialogueIndex: 33
     displayName: Peacock
     displayPortrait: {fileID: -9203963056601620801, guid: 6b92b719c99c756438a18c48d8372ecf, type: 3}
   - dialogueIndex: 34
     displayName: Peacock
-    displayPortrait: {fileID: -9203963056601620801, guid: 6b92b719c99c756438a18c48d8372ecf, type: 3}
+    displayPortrait: {fileID: -9178916439338732956, guid: 9ec5b92b9137d00449c293ab58b68f5c, type: 3}
   - dialogueIndex: 35
     displayName: Peacock
     displayPortrait: {fileID: -9178916439338732956, guid: 9ec5b92b9137d00449c293ab58b68f5c, type: 3}
   - dialogueIndex: 36
     displayName: Majnun
-    displayPortrait: {fileID: -2297315480108249004, guid: 7cba3ae9395118f488d26eb36e7ee9b2, type: 3}
+    displayPortrait: {fileID: -7159460699524869799, guid: 60e76a65af31bce4a93b801195ebd3f2, type: 3}
   - dialogueIndex: 36
     displayName: Majnun
-    displayPortrait: {fileID: -8962151927268179738, guid: a2fa307b7b964244284460c7a0958599, type: 3}
+    displayPortrait: {fileID: -7159460699524869799, guid: 60e76a65af31bce4a93b801195ebd3f2, type: 3}
   choices:
   - dialogueIndex: 7
     choices:
