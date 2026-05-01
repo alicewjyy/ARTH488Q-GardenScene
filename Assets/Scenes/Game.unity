@@ -8256,7 +8256,7 @@ SpriteRenderer:
   m_SortingLayerID: 779781349
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: -5731807546416847937, guid: 06d59999bcf81ea43a36f2594c5a9eec, type: 3}
+  m_Sprite: {fileID: -8314974196058326813, guid: 72bb577e47e4ba9489f04a6daf80aaef, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8305,7 +8305,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 11.97, y: 8.88}
+    oldSize: {x: 6.99, y: 7.63}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -12350,6 +12350,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1275915faf0dee0459643f43f457a83b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPC
+  dialogueData: {fileID: 0}
+  interactionIcon: {fileID: 0}
+  npcOverworld: {fileID: 0}
+  newSprite: {fileID: 0}
+  dialogueBarrier: {fileID: 0}
+  isDialogueActive: 0
 --- !u!114 &2077621358
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12365,6 +12371,7 @@ MonoBehaviour:
   dialogueData: {fileID: 11400000, guid: a4b27938c9c384c42a8eba52d2df6f34, type: 2}
   interactionIcon: {fileID: 1996175785}
   npcOverworld: {fileID: 1572981686}
+  newSprite: {fileID: -5731807546416847937, guid: 06d59999bcf81ea43a36f2594c5a9eec, type: 3}
   dialogueBarrier: {fileID: 376929199}
   isDialogueActive: 0
 --- !u!1 &2084537353

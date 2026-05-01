@@ -1,9 +1,10 @@
-using TMPro;
-using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
+using UnityEngine;
 using UnityEngine.UI;
 using static UnityEditor.ArrayUtility;
+using static UnityEngine.GraphicsBuffer;
 
 //Code taken from https://youtu.be/eSH9mzcMRqw?si=2HETwK3n_VBdYruZ
 public class NPC : MonoBehaviour, IInteractable
@@ -12,6 +13,8 @@ public class NPC : MonoBehaviour, IInteractable
     private DialogueController dialogueUI;
     public GameObject interactionIcon;
     public Transform npcOverworld;
+    public Sprite newSprite;
+
 
     public Collider2D dialogueBarrier;
 
@@ -192,7 +195,10 @@ public class NPC : MonoBehaviour, IInteractable
             if (dialogueBarrier != null)
             {
                 dialogueBarrier.enabled = false;
+
             }
+            SpriteRenderer sr = npcOverworld.GetComponent<SpriteRenderer>();
+            sr.sprite = newSprite;
         }
 
     }
